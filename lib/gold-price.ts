@@ -1,7 +1,7 @@
 import { GoldApiResponse } from '@/types/goldapi';
 import https from 'https';
 
-const GOLD_API_KEY = 'goldapi-it3sm98wefym-io';
+const GOLD_API_KEY = process.env.GOLD_API_KEY as string;
 const API_URL = 'https://www.goldapi.io/api/XAU/USD';
 
 interface RequestOptions extends https.RequestOptions {
