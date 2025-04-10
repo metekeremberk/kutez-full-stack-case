@@ -22,7 +22,7 @@ export default function ProductItem({ product }: { product: Product }) {
 			</div>
 
 			<div className="py-4 space-y-1">
-				<p className="font-montserrat font-medium text-[15px]">{product.name}</p>
+				<p className="font-montserrat font-semibold text-[15px]">{product.name}</p>
 				<p className="font-montserrat font-normal text-[15px]">${product.price} USD</p>
 			</div>
 
